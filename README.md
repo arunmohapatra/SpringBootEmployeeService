@@ -14,7 +14,7 @@
 |   Annotation |   Purpose  |    Special Behavior / Use Case |
 |--|-----|-----|
 |@Component	  |Generic stereotype for any bean     |No additional behavior — use for general-purpose components     |
-|@Service  |     |Indicates a service layer bean     |Semantically indicates business logic; may be used by AOP (e.g., for transactions or metrics)
+|@Service  |Indicates a service layer bean      |Semantically indicates business logic; may be used by AOP (e.g., for transactions or metrics)    |
 |@Repository  |Indicates a DAO / persistence bean     |Converts JPA exceptions to Spring DataAccessException via PersistenceExceptionTranslationPostProcessor     |
 
 
