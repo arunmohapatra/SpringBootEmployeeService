@@ -1,0 +1,22 @@
+spring:
+  application:
+    name: employee
+  datasource:
+    url: jdbc:postgresql://localhost:5432/SpringBootDemo
+    username: postgres
+    password: arun
+    driver-class-name: org.postgresql.Driver
+
+  jpa:
+    hibernate:
+      ddl-auto: update
+    show-sql: true
+    properties:
+      hibernate:
+        dialect: org.hibernate.dialect.PostgreSQLDialect
+        default_schema: employee
+
+employee:
+  host: localhost
+  port: 8080
+  url: http://localhost:8080/source/test1
