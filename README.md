@@ -20,12 +20,12 @@
 
 **When to use Which**
 -----------------------
-= Use @Component when:
+**Use @Component when:**
   - Your class is a generic Spring-Managed component that does not fall under service or repository
   - Examples: Utility classes, config handlers and helpers classes
-= Use @Service when:
+**Use @Service when:**
   - This class contains business logic or orchestration
   - You want to make the intent clear: this is the service layer
-= Use @Repository
+**Use @Repository**
   - This class interacts with a database or data source
   - You want Spring to automatically translate persistnce exceptions
