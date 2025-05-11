@@ -3,11 +3,13 @@
 3. They carry semantics difference that help with readabilty, maintaninability and sometimes additional behaviours
 
 **Common Purpose:**
+
 -> Mark a class as a **Spring Bean**
 -> Are picked by component scanning (e.g. using @ComponentScan of if inside a package scanned by @SpringBootApplication)
 -> Allow dependency injection using @Autowired, construction injection
 
 **Differences and When to Use**
+
 Annotation	                    Purpose	                                              Special Behavior / Use Case
 @Component	              Generic stereotype for any bean	                  No additional behavior — use for general-purpose components
 @Service	                Indicates a service layer bean	                  Semantically indicates business logic; may be used by AOP (e.g., for transactions or metrics)
